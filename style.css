@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    border: 2px solid black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(215, 175, 252);
+
+}
+
+#quizSec {
+    border: 2px solid red;
+    padding: 40px;
+    background-color: white;
+    min-height: 80%;
+    min-width: 80%;
+    border-radius: 10px;
+}
+
+#qustions h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.5rem;
+    background-color: black;
+    color: white;
+    padding: 10px 0px 10px 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    outline: 2px solid orangered;
+}
+
+#answers ul li {
+    list-style: none;
+    font-size: 2rem;
+    padding: 10px 0px 10px 0px;
+    cursor: pointer;
+    border: 2px solid purple;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#answers ul li input {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+}
+#submit{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#submit button{
+    width: 150px;
+    height: 10vh;
+    background-color: rgb(40, 245, 40);
+    font-size: 2rem;
+    border-radius: 20px;
+}
